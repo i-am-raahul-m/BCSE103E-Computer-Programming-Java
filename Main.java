@@ -1,20 +1,11 @@
-public class Main
-{
-	public static void main(String[] args)
-	{
-        int time = 22;
-        if (time < 10)
-        {
-            System.out.println("Good Morning");
-        }
-        else if (time < 20)
-        {
-            System.out.println("Good Day");
-        }
-        else
-        {
-            System.out.println("Good Evening");
-        }
-	}
-}
+public class Main {
+    int x = 10;
 
+    public static void main(String[] args)
+    {
+        Main myObj1 = new Main();
+        Main myObj2 = new Main();
+        System.out.println(myObj1.x);
+        System.out.println(myObj2.x);
+    }
+}
